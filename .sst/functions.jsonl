@@ -1,0 +1,3 @@
+{"id":"b7309edb","handler":"list.main","runtime":"python3.8","srcPath":"src","bundle":{"externalModules":["Klayers-python38-numpy"]},"root":"/Users/sgeoghegan/dev/rest-api-python"}
+{"id":"5e1db801","handler":"get.main","runtime":"python3.8","srcPath":"src","root":"/Users/sgeoghegan/dev/rest-api-python"}
+{"id":"287f35da","handler":"update.main","runtime":"python3.8","srcPath":"src","root":"/Users/sgeoghegan/dev/rest-api-python"}

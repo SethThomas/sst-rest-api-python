@@ -1,0 +1,21 @@
+{
+  "name": "rest-api-python",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "AWS_PROFILE=CC-Non-Prod.CC_Engineering_ReadWrite AWS_SDK_LOAD_CONFIG=1 sst start",
+    "build": "AWS_PROFILE=CC-Non-Prod.CC_Engineering_ReadWrite AWS_SDK_LOAD_CONFIG=1 sst build",
+    "deploy": "AWS_PROFILE=CC-Non-Prod.CC_Engineering_ReadWrite AWS_SDK_LOAD_CONFIG=1 sst deploy",
+    "remove": "AWS_PROFILE=CC-Non-Prod.CC_Engineering_ReadWrite AWS_SDK_LOAD_CONFIG=1 sst remove"
+  },
+  "eslintConfig": {
+    "extends": [
+      "serverless-stack"
+    ]
+  },
+  "dependencies": {
+    "@serverless-stack/cli": "0.56.2",
+    "@serverless-stack/resources": "0.56.2"
+  }
+}
